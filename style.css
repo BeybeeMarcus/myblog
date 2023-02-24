@@ -1,0 +1,6 @@
+.edit, .delete{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
