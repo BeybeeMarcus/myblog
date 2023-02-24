@@ -52,7 +52,7 @@ $blog = mysqli_fetch_assoc($query);
                     <textarea name="edit_content" class="form-control mb-2" cols="30" rows="5" placeholder="What's on your mind?"><?php echo $blog['content'] ?></textarea>
                     <div class="w-100 mx-auto">
                         <button type="submit" class="btn btn-success col-sm-12 w-100" style="margin-top: 20px; margin-bottom: -10px">UPDATE</button>
-                        <button type="button" class="btn btn-success col-sm-12 w-100" style="margin-top: 20px; margin-bottom: -10px" href=".././">CANCEL</button>
+                        <a type="button" class="btn btn-success col-sm-12 w-100" style="margin-top: 20px; margin-bottom: -10px" href="./">CANCEL</a>
                     </div>
                     
                 </form>
